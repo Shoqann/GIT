@@ -1,6 +1,6 @@
 myset={3,2,2,1}
 print(myset)
-print(1 in myset) # it search is the 1 in myset
+print(1 in myset) # it search is the 1 in myset.it print Boolean value True/False
 myset.add("test") #adding an element to the set
 print(myset)
 

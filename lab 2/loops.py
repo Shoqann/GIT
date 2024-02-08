@@ -11,7 +11,7 @@ while(i<6):
 for i in "Banana":
     print(i)
 
-0
+
 for j in "Arsen":
     if j=="s":
         continue
