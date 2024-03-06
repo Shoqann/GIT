@@ -1,6 +1,6 @@
 import os
 
-path = "C:\\Users\\Admin\\Desktop\\pp2\\PY\\LAB6\\Files and directories manipulation"
+path = "C:\\Users\\arsen\\git_test\\labs\\lab 6\\Files and directories manipulation"
 
 print("Current Path:", path)
 

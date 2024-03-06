@@ -1,6 +1,6 @@
 import os
 
-path = "C:\\Users\\Admin\\Desktop\\pp2\\PY\\LAB6\\Files and directories manipulation\\Example.txt"
+path = "C:\\Users\\arsen\\git_test\\labs\\lab 6\\Files and directories manipulation\\Example.txt"
 
 with open(path, "r") as txt:
     contents = txt.read()
