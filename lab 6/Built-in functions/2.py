@@ -1,3 +1,4 @@
+#Write a Python program with builtin function that accepts a string and calculate the number of upper case letters and lower case letters
 def upper_and_lower (list):
     lower_letters = 0
     upper_letters = 0

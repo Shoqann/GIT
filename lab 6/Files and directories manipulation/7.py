@@ -1,13 +1,14 @@
+#Write a Python program to copy the contents of a file to another file
 import os
+import shutil
 
-path = "C:\\Users\\arsen\\git_test\\labs\\lab 6\\Files and directories manipulation\\Example.txt"
-
-with open(path, "r") as txt:
-    contents = txt.read()
+def copy(f1, f2):
+    if os.path.isfile(f1):
+        shutil.copyfile(f1, f2)
+        print('copied')
+    else:
+        print('file doesnt exists')
     
-file_path = os.path.join("C:\\Users\\Admin\\Desktop\\pp2\\PY\\LAB6\\Files and directories manipulation", "Copy.txt")
-
-with open(file_path, "w") as txt:
-    txt.write(contents)
-    
-print ("File was successufully created!")
+f1 = 'C:\Users\arsen\git_test\labs\lab 6\Files and directories manipulation/Copy.txt'
+f2 = 'C:\Users\arsen\git_test\labs\lab 6\Files and directories manipulation/Copy2.txt'
+copy(f1, f2)

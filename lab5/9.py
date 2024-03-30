@@ -5,5 +5,5 @@ def space(x):
     return (re.findall('[A-Z][a-z]*', x))
     
 
-x = "INDINidsmaoidmisdiaimJMos"
+x = "IGDidsmaoidmisdiaimJTos"
 print(space(x))

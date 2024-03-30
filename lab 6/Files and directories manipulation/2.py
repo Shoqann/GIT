@@ -1,3 +1,5 @@
+#Write a Python program to check for access to a specified path. 
+#Test the existence, readability, writability and executability of the specified path
 import os
 
 path = "C:\\Users\\arsen\\git_test\\labs\\lab 6\\Files and directories manipulation"

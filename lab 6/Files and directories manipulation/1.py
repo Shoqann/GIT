@@ -1,3 +1,4 @@
+#Write a Python program to list only directories, files and all directories, files in a specified path.
 import os
 
 path = os.chdir("C:\\Users\\arsen\\git_test\\labs\\lab 6\\Files and directories manipulation")
