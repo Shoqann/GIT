@@ -28,7 +28,7 @@ font = pygame.font.SysFont("Verdana", 60)
 font_small = pygame.font.SysFont("Verdana", 20)
 game_over = font.render("Game Over", True, BLACK)
 
-background = pygame.image.load("AnimatedStreet.png")
+background = pygame.image.load("img/AnimatedStreet.png")
 
 # Create a white screen
 DISPLAYSURF = pygame.display.set_mode((400, 600))
@@ -90,8 +90,8 @@ class Coin(pygame.sprite.Sprite):
             self.rect.center = (random.randint(40, SCREEN_WIDTH - 40), 0)
 
 
-b = pygame.image.load('img/coins.png')
-coins = pygame.transform.scale_by(b, 0.1)
+b = pygame.image.load('img/coin.png')
+coins = pygame.transform.scale_by(b, 0.1)  #SCALE
 class Coins(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
@@ -166,7 +166,7 @@ while True:
         time.sleep(2)
         pygame.quit()
         sys.exit()
-
+        
     if pygame.sprite.spritecollideany(P1, coin1):
         C1.rect.center = (random.randint(40, SCREEN_WIDTH - 40), 0)
         cnt_coins += 1

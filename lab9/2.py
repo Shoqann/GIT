@@ -65,9 +65,9 @@ def main():
                     snake_direction = LEFT
                 elif event.key == pygame.K_RIGHT and snake_direction != LEFT:
                     snake_direction = RIGHT
-
+                
         current_time = pygame.time.get_ticks()
-        if current_time - food_timer > FOOD_TIMEOUT:
+        if current_time - food_timer > FOOD_TIMEOUT:    #TIMER
             apple = (random.randint(0, GRID_WIDTH - 1), random.randint(0, GRID_HEIGHT - 1))
             food_timer = current_time
 
